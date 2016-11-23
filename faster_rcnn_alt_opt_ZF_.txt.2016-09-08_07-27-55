@@ -1,0 +1,5 @@
++ echo Logging output to experiments/logs/faster_rcnn_alt_opt_ZF_.txt.2016-09-08_07-27-55
+Logging output to experiments/logs/faster_rcnn_alt_opt_ZF_.txt.2016-09-08_07-27-55
++ set +x
++ ./tools/test_net.py --gpu 1 --def models/widerface/ZF/faster_rcnn_alt_opt/faster_rcnn_test.pt --net /root/workspace/py-faster-rcnn/output/faster_rcnn_alt_opt/widerface_2016_train/ZF_faster_rcnn_final.caffemodel --imdb widerface_2016_val --cfg experiments/cfgs/faster_rcnn_alt_opt.yml
+./experiments/scripts/test_faster_rcnn_alt_opt_widerface.sh: line 56: ./tools/test_net.py: Permission denied

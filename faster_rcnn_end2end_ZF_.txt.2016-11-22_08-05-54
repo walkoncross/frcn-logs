@@ -1,0 +1,4 @@
++ echo Logging output to experiments/logs/faster_rcnn_end2end_ZF_.txt.2016-11-22_08-05-54
+Logging output to experiments/logs/faster_rcnn_end2end_ZF_.txt.2016-11-22_08-05-54
++ ./tools/train_net.py --gpu 0 --solver models/widerface/ZF/faster_rcnn_end2end/solver.prototxt --weights data/imagenet_models/ZF.v2.caffemodel --imdb widerface_2016_train --iters 350000 --cfg experiments/cfgs/faster_rcnn_end2end_widerface.yml
+./experiments/scripts/faster_rcnn_end2end_widerface.sh: line 57: ./tools/train_net.py: Permission denied

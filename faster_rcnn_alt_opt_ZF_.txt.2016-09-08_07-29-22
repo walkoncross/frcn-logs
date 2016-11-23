@@ -1,0 +1,12 @@
++ echo Logging output to experiments/logs/faster_rcnn_alt_opt_ZF_.txt.2016-09-08_07-29-22
+Logging output to experiments/logs/faster_rcnn_alt_opt_ZF_.txt.2016-09-08_07-29-22
++ ./tools/train_faster_rcnn_alt_opt.py --gpu 1 --net_name ZF --weights data/imagenet_models/ZF.v2.caffemodel --imdb widerface_2016_train --cfg experiments/cfgs/faster_rcnn_alt_opt.yml
+Traceback (most recent call last):
+  File "./tools/train_faster_rcnn_alt_opt.py", line 19, in <module>
+    from datasets.factory import get_imdb
+  File "/disk2/workspace/github/ataraxia/faceX/py-faster-rcnn-zyf/tools/../lib/datasets/factory.py", line 14, in <module>
+    from datasets.widerface import widerface
+  File "/disk2/workspace/github/ataraxia/faceX/py-faster-rcnn-zyf/tools/../lib/datasets/widerface.py", line 205
+    ix_cnt = 0
+    ^
+IndentationError: unexpected indent
